@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Dashboard</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav>
+  <h2>GradeSnap AI</h2>
+  <button onclick="logout()">Logout</button>
+</nav>
+
+<main>
+
+<section class="editor">
+  <h3>Paste Your Essay</h3>
+  <textarea id="essay"></textarea>
+  <button onclick="analyzeEssay()">Analyze</button>
+</section>
+
+<section class="results" id="results"></section>
+
+<section class="history">
+  <h3>History</h3>
+  <div id="history"></div>
+</section>
+
+</main>
+
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2"></script>
+<script src="js/dashboard.js"></script>
+</body>
+</html>
