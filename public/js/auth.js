@@ -1,6 +1,6 @@
 const supabase = supabase.createClient(
-  "https://YOUR_PROJECT_ID.supabase.co",
-  "YOUR_PUBLIC_ANON_KEY"
+  "https://dgolsptrvlfxdanijnjr.supabase.co",
+  "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6ImRnb2xzcHRydmxmeGRhbmlqbmpyIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzA1MDgwNzUsImV4cCI6MjA4NjA4NDA3NX0.YSqslDuCYJwzN2_yGgsPMox1uh8EYVGJ_wmZk4BPySE"
 );
 
 async function login(){
